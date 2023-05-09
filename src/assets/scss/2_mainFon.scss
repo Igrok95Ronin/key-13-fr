@@ -1,0 +1,101 @@
+.mainFon {
+}
+.mainFon__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.mainFon__left {
+}
+.mainFon__imgW {
+}
+.mainFon__img {
+    width: 100%;
+    height: 100%;
+}
+.mainFon__ul {
+    background-color: $mainColor;
+    width: 90%;
+    position: relative;
+    margin-top: -40px;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 9;
+    li{
+        padding-left: 50px;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/ok.png);
+            background-size: cover;
+            width: 25px;
+            height: 25px;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+.mainFon__fight {
+}
+.mainFon__fight-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.mainFon__fight-top-imgW {
+}
+.mainFon__fight-top-img {
+    max-width: 100px;
+    height: 100%;
+}
+.mainFon__fight-top-btnW {
+}
+.mainFon__fight-top-btn {
+    background-color: #33ac30;
+    color: #fff;
+    padding: 30px 10px 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    position: relative;
+    &::after{
+        content: 'Appelez maintenant';
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        font-size: 12px;
+    }
+    span{
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../img/ok4.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -25px;
+        }
+    }
+    &:hover {
+        color: #fff;
+    }
+}
+.mainFon__fight-bottom {
+}
+.mainFon__fight-bottom-img {
+    width: 100%;
+    height: 100%;
+}

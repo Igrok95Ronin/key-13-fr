@@ -37,6 +37,24 @@ body{
 
 $mainColor: #3759b4;
 
+
+@mixin title {
+    background-color: $mainColor;
+    color: #fff;
+    font-weight: 700;
+    width: 90%;
+    padding: 10px 5px 10px 50px;
+    position: relative;
+    margin-top: -20px;
+    &::before{
+        content: '❯';
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
 @mixin btn {
 
 }

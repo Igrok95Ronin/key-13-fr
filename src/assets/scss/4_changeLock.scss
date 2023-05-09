@@ -1,0 +1,61 @@
+.changeLock {
+    padding: 0 0 35px;
+}
+.changeLock__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.changeLock__left {
+}
+.changeLock__imgW {
+}
+.changeLock__img {
+    width: 100%;
+    height: 100%;
+}
+.changeLock__title {
+    @include title;
+}
+.changeLock__right {
+}
+.changeLock__txt {
+    line-height: 26px;
+}
+.changeLock__price {
+    background-color: $mainColor;
+    width: 265px;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    position: relative;
+    &::before{
+        content: '';
+        background-image: url(../img/ok6.png);
+        background-size: cover;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -10px;
+        top: -10px;
+    }
+}
+.changeLock__span1 {
+}
+.changeLock__span2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+.changeLock__imgWrapp {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.changeLock__imgR {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

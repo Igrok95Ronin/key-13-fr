@@ -1,0 +1,28 @@
+.recommendedByInsurance {
+    padding: 0 0 35px;
+}
+.recommendedByInsurance__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.recommendedByInsurance__left {
+}
+.recommendedByInsurance__title {
+    padding: 10px;
+    background-color: $mainColor;
+    color: #fff;
+    font-weight: 700;
+    width: 90%;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.recommendedByInsurance__txt {
+    line-height: 26px;
+    margin-top: 20px;
+}
+.recommendedByInsurance__right {
+}
+.recommendedByInsurance__img {
+    width: 100%;
+    height: 100%;
+}

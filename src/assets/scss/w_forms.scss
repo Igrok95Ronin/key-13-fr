@@ -1,0 +1,22 @@
+.forms {
+    padding: 35px 0 20px;
+}
+.forms__wrapper {
+}
+.forms__box {
+}
+.forms__title {
+    @include title;
+}
+.forms__button {
+    background-color: #33ac30;
+    color: #fff;
+    padding: 30px 10px 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    &:hover {
+        color: #fff;
+    }
+}

@@ -1,0 +1,34 @@
+.openingRepairingSafes {
+    padding: 0 0 35px;
+}
+.openingRepairingSafes__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.openingRepairingSafesd__left {
+}
+.openingRepairingSafes__imgW {
+}
+.openingRepairingSafes__img {
+    width: 100%;
+    height: 100%;
+}
+.openingRepairingSafes__title {
+    @include title;
+}
+.openingRepairingSafesd__right {
+}
+.openingRepairingSafes__txt {
+    line-height: 26px;
+}
+.openingRepairingSafes__blockImg {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.openingRepairingSafes__img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

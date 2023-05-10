@@ -1,0 +1,58 @@
+.burglaryProtection {
+    padding: 0 0 35px;
+}
+.burglaryProtection__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.burglaryProtection__left {
+}
+.burglaryProtection__imgW {
+}
+.burglaryProtection__img {
+    width: 100%;
+    height: 100%;
+}
+.burglaryProtection__title {
+    @include title;
+}
+.burglaryProtection__right {
+    margin-top: 20px;
+}
+.burglaryProtection__ul {
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    li{
+        padding-left: 50px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(../img/005.png);
+            background-size: cover;
+            width: 40px;
+            height: 40px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    li:nth-child(2){
+        &::before{
+            background-image: url(../img/006.png);
+        }
+    }
+    li:nth-child(3){
+        &::before{
+            background-image: url(../img/007.png);
+        }
+    }
+    li:nth-child(4){
+        &::before{
+            background-image: url(../img/008.png);
+        }
+    }
+}

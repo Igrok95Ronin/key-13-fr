@@ -58,39 +58,7 @@
 .mainFon__fight-top-btnW {
 }
 .mainFon__fight-top-btn {
-    background-color: #33ac30;
-    color: #fff;
-    padding: 30px 10px 10px 40px;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    border-radius: 10px;
-    position: relative;
-    &::after{
-        content: 'Appelez maintenant';
-        position: absolute;
-        right: 10px;
-        top: 5px;
-        font-size: 12px;
-    }
-    span{
-        position: relative;
-        &::before{
-            content: '';
-            position: absolute;
-            background-image: url(../img/ok4.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 25px;
-            height: 25px;
-            top: 50%;
-            transform: translateY(-50%);
-            left: -25px;
-        }
-    }
-    &:hover {
-        color: #fff;
-    }
+    @include btn;
 }
 .mainFon__fight-bottom {
 }

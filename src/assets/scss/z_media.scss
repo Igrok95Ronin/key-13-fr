@@ -1,0 +1,20 @@
+@media(max-width: 767px) {
+    .mainFon__box,
+    .locksmith__box,
+    .changeLock__box,
+    .doorOpening__box,
+    .locksmithServices__box,
+    .burglaryProtection__box,
+    .openingRepairingSafes__box,
+    .recommendedByInsurance__box {
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 500px) {
+    .btnFixedD {
+        display: none;
+    }
+    .btnFixed {
+        display: block;
+    }
+}
